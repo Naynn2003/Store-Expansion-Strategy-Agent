@@ -1,0 +1,218 @@
+<template>
+    <div class="dashboard-wrapper">
+
+        <!-- ── Header ─────────────────────────────────────────────────────── -->
+        <div class="dashboard-header">
+            <div class="header-left">
+                <lightning-icon icon-name="standard:store" size="medium" class="header-icon"></lightning-icon>
+                <div class="header-text">
+                    <h1 class="header-title">Store Expansion Strategy</h1>
+                    <p class="header-subtitle">AI-powered expansion intelligence · 23 cities · 48 sites · 344 records</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <span class="status-badge">
+                    <lightning-icon icon-name="utility:check" size="x-small"></lightning-icon>
+                    &nbsp;Agent Active
+                </span>
+            </div>
+        </div>
+
+        <!-- ── Main Body ───────────────────────────────────────────────────── -->
+        <div class="dashboard-body">
+
+            <!-- Left: Data Panel (65%) -->
+            <div class="data-panel">
+
+                <!-- Overview Tab content -->
+                <template if:true={showOverview}>
+                    <div class="tab-nav">
+                        <button class={overviewTabClass} onclick={switchTab} data-tab="overview">Overview</button>
+                        <button class={marketsTabClass} onclick={switchTab} data-tab="markets">Markets (23)</button>
+                        <button class={sitesTabClass} onclick={switchTab} data-tab="sites">Sites (48)</button>
+                        <button class={competitorsTabClass} onclick={switchTab} data-tab="competitors">Competitors</button>
+                        <button class={financialsTabClass} onclick={switchTab} data-tab="financials">Financials</button>
+                        <button class={scoresTabClass} onclick={switchTab} data-tab="scores">Scores</button>
+                    </div>
+                    <div class="tab-content">
+                        <template if:true={metrics}>
+                            <div class="metric-grid">
+                                <div class="metric-card metric-blue">
+                                    <div class="metric-value">{metrics.totalSites}</div>
+                                    <div class="metric-label">Expansion Sites</div>
+                                </div>
+                                <div class="metric-card metric-green">
+                                    <div class="metric-value">{metrics.totalMarkets}</div>
+                                    <div class="metric-label">Markets Analyzed</div>
+                                </div>
+                                <div class="metric-card metric-orange">
+                                    <div class="metric-value">{metrics.totalCompetitors}</div>
+                                    <div class="metric-label">Competitor Stores</div>
+                                </div>
+                                <div class="metric-card metric-teal">
+                                    <div class="metric-value">{metrics.recommendedSites}</div>
+                                    <div class="metric-label">Recommended Sites</div>
+                                </div>
+                                <div class="metric-card metric-purple">
+                                    <div class="metric-value">&#8377;{metrics.avgTamCrore}Cr</div>
+                                    <div class="metric-label">Avg Market TAM</div>
+                                </div>
+                                <div class="metric-card metric-gold">
+                                    <div class="metric-value">{metrics.topSiteScore}</div>
+                                    <div class="metric-label">Top Site Score</div>
+                                </div>
+                            </div>
+                            <div class="top-site-callout">
+                                <lightning-icon icon-name="utility:favorite" size="x-small"></lightning-icon>
+                                &nbsp;<strong>Top Recommended Site:</strong> {metrics.topSiteName} &mdash; {metrics.topSiteCity}
+                                &nbsp;(Demand Score: {metrics.topSiteScore})
+                            </div>
+                            <div class="overview-hint">
+                                <p>Use the tabs above to explore all data, or <strong>chat with the AI agent</strong> on the right panel.</p>
+                                <p>Quick prompts: <em>"Analyze Pune market"</em> &bull; <em>"Top 5 sites"</em> &bull; <em>"Competitors in Mumbai"</em> &bull; <em>"ROI for Malad West - 400064"</em></p>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+
+                <!-- Other tabs share same tab-nav -->
+                <template if:false={showOverview}>
+                    <div class="tab-nav">
+                        <button class={overviewTabClass} onclick={switchTab} data-tab="overview">Overview</button>
+                        <button class={marketsTabClass} onclick={switchTab} data-tab="markets">Markets (23)</button>
+                        <button class={sitesTabClass} onclick={switchTab} data-tab="sites">Sites (48)</button>
+                        <button class={competitorsTabClass} onclick={switchTab} data-tab="competitors">Competitors</button>
+                        <button class={financialsTabClass} onclick={switchTab} data-tab="financials">Financials</button>
+                        <button class={scoresTabClass} onclick={switchTab} data-tab="scores">Scores</button>
+                    </div>
+                    <div class="tab-content">
+
+                        <!-- Markets -->
+                        <template if:true={showMarkets}>
+                            <lightning-datatable
+                                key-field="Id"
+                                data={marketsForTable}
+                                columns={marketColumns}
+                                hide-checkbox-column
+                                wrap-text-max-lines="1">
+                            </lightning-datatable>
+                        </template>
+
+                        <!-- Sites -->
+                        <template if:true={showSites}>
+                            <lightning-datatable
+                                key-field="Id"
+                                data={sitesForTable}
+                                columns={siteColumns}
+                                hide-checkbox-column
+                                wrap-text-max-lines="1">
+                            </lightning-datatable>
+                        </template>
+
+                        <!-- Competitors -->
+                        <template if:true={showCompetitors}>
+                            <lightning-datatable
+                                key-field="Id"
+                                data={competitors}
+                                columns={competitorColumns}
+                                hide-checkbox-column
+                                wrap-text-max-lines="1">
+                            </lightning-datatable>
+                        </template>
+
+                        <!-- Financials -->
+                        <template if:true={showFinancials}>
+                            <lightning-datatable
+                                key-field="rowId"
+                                data={financials}
+                                columns={financialColumns}
+                                hide-checkbox-column
+                                wrap-text-max-lines="1">
+                            </lightning-datatable>
+                        </template>
+
+                        <!-- Scores -->
+                        <template if:true={showScores}>
+                            <lightning-datatable
+                                key-field="rowId"
+                                data={scores}
+                                columns={scoreColumns}
+                                hide-checkbox-column
+                                wrap-text-max-lines="1">
+                            </lightning-datatable>
+                        </template>
+
+                    </div>
+                </template>
+
+            </div>
+
+            <!-- Right: AI Chat Panel (35%) -->
+            <div class="chat-panel">
+                <div class="chat-header">
+                    <lightning-icon icon-name="utility:einstein" size="small"></lightning-icon>
+                    <span class="chat-title">&nbsp;AI Agent</span>
+                    <span class="chat-badge">Agentforce</span>
+                </div>
+
+                <!-- Message history -->
+                <div class="chat-messages" lwc:ref="chatBox">
+                    <template if:false={hasChatHistory}>
+                        <div class="chat-welcome">
+                            <div class="welcome-icon">&#129302;</div>
+                            <p><strong>Store Expansion Strategy Agent</strong></p>
+                            <p>Ask me about:</p>
+                            <ul>
+                                <li>&#128202; Market opportunity in any city</li>
+                                <li>&#127970; Top expansion sites</li>
+                                <li>&#127970; Competitor landscape</li>
+                                <li>&#128176; Financial projections &amp; ROI</li>
+                                <li>&#128200; Site scores</li>
+                            </ul>
+                        </div>
+                    </template>
+                    <template for:each={chatHistory} for:item="msg">
+                        <div key={msg.id} class={msg.rowClass}>
+                            <div class={msg.bubbleClass}>{msg.text}</div>
+                            <div class="msg-time">{msg.time}</div>
+                        </div>
+                    </template>
+                    <template if:true={isLoading}>
+                        <div class="msg-row msg-agent">
+                            <div class="msg-bubble agent-bubble thinking-bubble">
+                                <span class="dot">&#8226;</span>
+                                <span class="dot">&#8226;</span>
+                                <span class="dot">&#8226;</span>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Quick action pills -->
+                <div class="quick-actions">
+                    <button class="quick-btn" data-msg="Tell me about the market opportunity in Mumbai" onclick={handleQuick}>&#128202; Mumbai</button>
+                    <button class="quick-btn" data-msg="Show me the top 5 expansion sites" onclick={handleQuick}>&#127970; Top Sites</button>
+                    <button class="quick-btn" data-msg="Who are our competitors in Pune?" onclick={handleQuick}>&#127970; Competitors Pune</button>
+                    <button class="quick-btn" data-msg="What is the ROI for Malad West - 400064?" onclick={handleQuick}>&#128176; ROI Malad</button>
+                    <button class="quick-btn" data-msg="Score the site Bengaluru CBD" onclick={handleQuick}>&#128200; Score Site</button>
+                </div>
+
+                <!-- Input -->
+                <div class="chat-input-area">
+                    <textarea
+                        class="chat-textarea"
+                        placeholder="Ask about markets, sites, ROI, competitors..."
+                        rows="2"
+                        onchange={handleInputChange}
+                        onkeydown={handleKeyDown}>
+                    </textarea>
+                    <button class="send-btn" onclick={handleSend} disabled={isLoading}>
+                        <template if:false={isLoading}>Send</template>
+                        <template if:true={isLoading}>...</template>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</template>

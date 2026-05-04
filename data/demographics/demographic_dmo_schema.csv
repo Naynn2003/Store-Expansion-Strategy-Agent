@@ -1,0 +1,20 @@
+fieldLabel,fieldApiName,dataType,isPrimaryKey
+Pin Code,Pin_Code__c,Text,true
+Record Name,Name__c,Text,false
+City,City__c,Text,false
+State,State__c,Text,false
+Total Population,Total_Population__c,Number,false
+Population Density,Population_Density__c,Number,false
+Male Population,Male_Population__c,Number,false
+Female Population,Female_Population__c,Number,false
+Avg Household Income,Avg_Household_Income__c,Number,false
+Income Bracket,Income_Bracket__c,Text,false
+Literacy Rate,Literacy_Rate__c,Number,false
+Working Population Pct,Working_Population_Pct__c,Number,false
+Age 18 35 Pct,Age_18_35_Pct__c,Number,false
+Urban Rural,Urban_Rural__c,Text,false
+Data Source,Data_Source__c,Text,false
+Year,Year__c,Number,false
+Primary Source,Primary_Source__c,Text,false
+Source Version,Source_Version__c,Text,false
+Confidence,Confidence__c,Text,false

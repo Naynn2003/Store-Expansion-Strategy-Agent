@@ -1,0 +1,70 @@
+Name,Market_Analysis__r.Name,Site_Name__c,Rank__c,Demand_Score__c,Revenue_Potential__c
+"Mumbai Top Site 1","Mumbai Market Analysis","Malad West - 400064",1,95,28000000
+"Mumbai Top Site 2","Mumbai Market Analysis","Bandra West - 400050",2,92,35000000
+"Mumbai Top Site 3","Mumbai Market Analysis","Thane West - 400601",3,88,22000000
+"Pune Top Site 1","Pune Market Analysis","Hinjewadi - 411057",1,88,18000000
+"Pune Top Site 2","Pune Market Analysis","Kalyani Nagar - 411006",2,84,16000000
+"Pune Top Site 3","Pune Market Analysis","Hadapsar - 411028",3,82,15000000
+"Bangalore Top Site 1","Bangalore Market Analysis","Indiranagar - 560038",1,94,25000000
+"Bangalore Top Site 2","Bangalore Market Analysis","HSR Layout - 560102",2,90,20000000
+"Bangalore Top Site 3","Bangalore Market Analysis","Whitefield - 560066",3,89,22000000
+"Hyderabad Top Site 1","Hyderabad Market Analysis","Gachibowli - 500032",1,89,19000000
+"Hyderabad Top Site 2","Hyderabad Market Analysis","Banjara Hills - 500034",2,87,24000000
+"Hyderabad Top Site 3","Hyderabad Market Analysis","Madhapur - 500081",3,85,21000000
+"Delhi Top Site 1","Delhi Market Analysis","Vasant Kunj - 110070",1,93,32000000
+"Delhi Top Site 2","Delhi Market Analysis","Rohini - 110085",2,88,18000000
+"Delhi Top Site 3","Delhi Market Analysis","Dwarka - 110075",3,86,20000000
+"Chennai Top Site 1","Chennai Market Analysis","T. Nagar - 600017",1,91,22000000
+"Chennai Top Site 2","Chennai Market Analysis","Adyar - 600020",2,86,16000000
+"Chennai Top Site 3","Chennai Market Analysis","Velachery - 600042",3,84,18000000
+"Ahmedabad Top Site 1","Ahmedabad Market Analysis","Prahlad Nagar - 380015",1,84,15000000
+"Ahmedabad Top Site 2","Ahmedabad Market Analysis","Satellite - 380015",2,82,14000000
+"Ahmedabad Top Site 3","Ahmedabad Market Analysis","CG Road - 380009",3,80,16000000
+"Gandhinagar Top Site 1","Gandhinagar Market Analysis","Sargasan - 382421",1,82,11000000
+"Gandhinagar Top Site 2","Gandhinagar Market Analysis","Kudasan - 382421",2,79,9500000
+"Gandhinagar Top Site 3","Gandhinagar Market Analysis","Raysan - 382421",3,75,8500000
+"Surat Top Site 1","Surat Market Analysis","Adajan - 395009",1,88,16000000
+"Surat Top Site 2","Surat Market Analysis","Vesu - 395007",2,85,15000000
+"Surat Top Site 3","Surat Market Analysis","Piplod - 395007",3,83,14000000
+"Vadodara Top Site 1","Vadodara Market Analysis","Alkapuri - 390007",1,85,14000000
+"Vadodara Top Site 2","Vadodara Market Analysis","Gotri Road - 390021",2,80,12000000
+"Vadodara Top Site 3","Vadodara Market Analysis","Manjalpur - 390011",3,78,11000000
+"Bhopal Top Site 1","Bhopal Market Analysis","Arera Colony - 462016",1,80,12000000
+"Bhopal Top Site 2","Bhopal Market Analysis","Ayodhya Nagar - 462041",2,76,10000000
+"Bhopal Top Site 3","Bhopal Market Analysis","Kolar Road - 462042",3,74,9000000
+"Indore Top Site 1","Indore Market Analysis","Vijay Nagar - 452010",1,88,18000000
+"Indore Top Site 2","Indore Market Analysis","Rajendra Nagar - 452012",2,82,13000000
+"Indore Top Site 3","Indore Market Analysis","Nipania - 452010",3,80,12000000
+"Gwalior Top Site 1","Gwalior Market Analysis","City Centre - 474002",1,75,9000000
+"Gwalior Top Site 2","Gwalior Market Analysis","DD Nagar - 474020",2,70,8000000
+"Gwalior Top Site 3","Gwalior Market Analysis","Morar - 474006",3,68,7500000
+"Jabalpur Top Site 1","Jabalpur Market Analysis","Civil Lines - 482001",1,72,8500000
+"Jabalpur Top Site 2","Jabalpur Market Analysis","Vijay Nagar - 482002",2,69,7500000
+"Jabalpur Top Site 3","Jabalpur Market Analysis","Napier Town - 482001",3,65,7000000
+"Lucknow Top Site 1","Lucknow Market Analysis","Gomti Nagar - 226010",1,86,15000000
+"Lucknow Top Site 2","Lucknow Market Analysis","Hazratganj - 226001",2,84,18000000
+"Lucknow Top Site 3","Lucknow Market Analysis","Alambagh - 226005",3,80,13000000
+"Kanpur Top Site 1","Kanpur Market Analysis","Mall Road - 208001",1,83,14000000
+"Kanpur Top Site 2","Kanpur Market Analysis","Kakadeo - 208025",2,81,12000000
+"Kanpur Top Site 3","Kanpur Market Analysis","Swarup Nagar - 208002",3,79,11000000
+"Agra Top Site 1","Agra Market Analysis","Sanjay Place - 282002",1,74,9500000
+"Agra Top Site 2","Agra Market Analysis","Sadar Bazaar - 282001",2,72,11000000
+"Agra Top Site 3","Agra Market Analysis","Fatehabad Road - 282001",3,70,12000000
+"Varanasi Top Site 1","Varanasi Market Analysis","Sigra - 221002",1,78,11000000
+"Varanasi Top Site 2","Varanasi Market Analysis","Orderly Bazar - 221002",2,75,9000000
+"Varanasi Top Site 3","Varanasi Market Analysis","Lanka - 221005",3,73,8500000
+"Noida Top Site 1","Noida Market Analysis","Sector 18 - 201301",1,92,26000000
+"Noida Top Site 2","Noida Market Analysis","Sector 62 - 201309",2,86,18000000
+"Noida Top Site 3","Noida Market Analysis","Sector 137 - 201305",3,84,15000000
+"Jaipur Top Site 1","Jaipur Market Analysis","Mansarovar - 302020",1,84,15000000
+"Jaipur Top Site 2","Jaipur Market Analysis","Malviya Nagar - 302017",2,81,14000000
+"Jaipur Top Site 3","Jaipur Market Analysis","Vaishali Nagar - 302021",3,80,13000000
+"Jodhpur Top Site 1","Jodhpur Market Analysis","Sardarpura - 342003",1,76,9000000
+"Jodhpur Top Site 2","Jodhpur Market Analysis","Ratanada - 342001",2,73,8000000
+"Jodhpur Top Site 3","Jodhpur Market Analysis","Shastri Nagar - 342003",3,71,7500000
+"Udaipur Top Site 1","Udaipur Market Analysis","Sukhadia Circle - 313001",1,74,8500000
+"Udaipur Top Site 2","Udaipur Market Analysis","Madhuban - 313001",2,71,7000000
+"Udaipur Top Site 3","Udaipur Market Analysis","Sector 11 - 313002",3,69,6500000
+"Kota Top Site 1","Kota Market Analysis","Talwandi - 324005",1,79,10000000
+"Kota Top Site 2","Kota Market Analysis","Kunadi - 324008",2,75,8500000
+"Kota Top Site 3","Kota Market Analysis","Vigyan Nagar - 324005",3,73,8000000

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Format__c</fullName>
+    <description>Format of this retail store, used to match comparable stores for financial projection benchmarking</description>
+    <label>Store Format</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Supermarket</fullName>
+                <default>false</default>
+                <label>Supermarket</label>
+            </value>
+            <value>
+                <fullName>Express</fullName>
+                <default>false</default>
+                <label>Express</label>
+            </value>
+            <value>
+                <fullName>Hypermarket</fullName>
+                <default>false</default>
+                <label>Hypermarket</label>
+            </value>
+            <value>
+                <fullName>Kirana</fullName>
+                <default>false</default>
+                <label>Kirana</label>
+            </value>
+            <value>
+                <fullName>Online Dark Store</fullName>
+                <default>false</default>
+                <label>Online Dark Store</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

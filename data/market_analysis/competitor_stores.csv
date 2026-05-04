@@ -1,0 +1,28 @@
+Name,Brand__c,Category__c,Address__c,City__c,State__c,Pin_Code__c,Store_Format__c,Store_Size_Sqft__c,Latitude__c,Longitude__c,Rating__c,Distance_km__c,Est_Monthly_Revenue__c
+"DMart Malad West","DMart","FMCG","Link Road, Near Mithibai College, Malad West","Mumbai","Maharashtra","400064","Hypermarket",45000,19.1864,72.8493,4.3,0.0,45000000
+"Reliance Smart Kurla","Reliance Smart","FMCG","Phoenix Market City, LBS Road, Kurla","Mumbai","Maharashtra","400070","Hypermarket",15000,19.0864,72.8893,4.1,8.5,25000000
+"Star Bazaar Bandra","Star Bazaar","FMCG","Crystal Shoppers Paradise, Linking Road","Mumbai","Maharashtra","400050","Supermarket",8000,19.0601,72.8310,4.4,0.5,12000000
+"Big Bazaar Thane","Big Bazaar","FMCG","Korum Mall, Eastern Express Highway","Mumbai","Maharashtra","400601","Hypermarket",35000,19.2023,72.9654,3.9,12.0,22000000
+"Reliance Fresh Sion","Reliance Fresh","FMCG","Galaxy-Sion, Mumbai","Mumbai","Maharashtra","400022","Supermarket",4000,19.0354,72.8612,4.0,15.0,6000000
+"DMart Kalyani Nagar","DMart","FMCG","Near Cybage, Central Avenue, Kalyani Nagar","Pune","Maharashtra","411006","Hypermarket",40000,18.5463,73.9033,4.4,0.1,38000000
+"Reliance Smart Hinjewadi","Reliance Smart","FMCG","Xion Mall, Hinjewadi Phase 1","Pune","Maharashtra","411057","Hypermarket",12000,18.5921,73.7401,4.2,0.4,18000000
+"Star Bazaar Baner","Star Bazaar","FMCG","Primrose Mall, Baner Road","Pune","Maharashtra","411045","Supermarket",9000,18.5587,73.7894,4.3,6.2,14000000
+"Big Bazaar Hadapsar","Big Bazaar","FMCG","Amanora Mall, Hadapsar","Pune","Maharashtra","411028","Hypermarket",32000,18.5187,73.9354,4.0,4.5,20000000
+"More Supermarket Koregaon","More Supermarket","FMCG","North Main Road, Koregaon Park","Pune","Maharashtra","411001","Supermarket",5000,18.5376,73.8912,4.1,2.8,8000000
+"Reliance Smart Indiranagar","Reliance Smart","FMCG","CMH Road, Indiranagar, Bangalore","Bangalore","Karnataka","560038","Supermarket",8000,12.9785,77.6415,4.2,0.2,15000000
+"DMart Whitefield","DMart","FMCG","ITPL Main Road, Brookefield","Bangalore","Karnataka","560066","Hypermarket",42000,12.9654,77.7123,4.3,6.5,40000000
+"SPAR Hypermarket Egattur","SPAR","FMCG","OMR, Navalur, Chennai","Chennai","Tamil Nadu","603103","Hypermarket",30000,12.8354,80.2234,4.1,18.0,24000000
+"Big Bazaar IP Grand","Big Bazaar","FMCG","IP Grand Mall, Sigra","Varanasi","Uttar Pradesh","221002","Hypermarket",15000,25.3125,82.9878,3.8,0.1,12000000
+"DMart Vijay Nagar","DMart","FMCG","Scheme No 78, Indore","Indore","Madhya Pradesh","452010","Hypermarket",48000,22.7545,75.8954,4.5,0.3,46000000
+"Reliance Smart City Centre","Reliance Smart","FMCG","Tulsi Vihar Colony, Gwalior","Gwalior","Madhya Pradesh","474002","Hypermarket",14000,26.2135,78.2015,4.1,0.1,16000000
+"Big Bazaar Mall Road","Big Bazaar","FMCG","Z Square Mall, Kanpur","Kanpur","Uttar Pradesh","208001","Hypermarket",28000,26.4685,80.3495,3.9,0.2,22000000
+"Reliance Smart Sector 18","Reliance Smart","FMCG","DLF Mall of India, Noida","Noida","Uttar Pradesh","201301","Hypermarket",18000,28.5681,77.3221,4.2,0.1,28000000
+"DMart Mansarovar","DMart","FMCG","Sector 14, Durgapura, Jaipur","Jaipur","Rajasthan","302020","Hypermarket",38000,26.8515,75.7695,4.4,0.1,35000000
+"Reliance Smart Talwandi","Reliance Smart","FMCG","City Mall, Jhalawar Road, Kota","Kota","Rajasthan","324005","Hypermarket",15000,25.1331,75.8495,4.0,0.2,12000000
+"Reliance Smart Phoenix Market City","Reliance Smart","FMCG","LBS Road, Kurla West","Mumbai","Maharashtra","400070","Hypermarket",15000,,,,,
+"Reliance Smart Hazrat Ganj","Reliance Smart","FMCG","Sahara Mall, Hazrat Ganj","Lucknow","Uttar Pradesh","226001","Hypermarket",12000,,,,,
+"Big Bazaar Sukhadia Circle","Big Bazaar","FMCG","Town Hall Road, Surajpole, Udaipur","Udaipur","Rajasthan","313001","Hypermarket",30000,,,,,
+"Reliance Smart Sigra","Reliance Smart","FMCG","IP Grand Mall, Gulab Bagh Sigra","Varanasi","Uttar Pradesh","221002","Hypermarket",12000,,,,,
+"DMart Pratap Nagar","DMart","FMCG","Haldighati Marg, Pratap Nagar, Jaipur","Jaipur","Rajasthan","302033","Hypermarket",35000,,,,,
+"Spencer's Aliganj","Spencer's","FMCG","Emerald Mall, Aliganj, Lucknow","Lucknow","Uttar Pradesh","226021","Hypermarket",25000,,,,,
+"DMart Sargasan","DMart","FMCG","Near Sargasan Cross Road, Gandhinagar","Gandhinagar","Gujarat","382421","Hypermarket",30000,,,,,

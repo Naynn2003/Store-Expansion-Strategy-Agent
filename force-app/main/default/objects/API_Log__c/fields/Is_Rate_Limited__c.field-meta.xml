@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Rate_Limited__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True when the API responded with HTTP 429 Too Many Requests. Use this field to identify providers that need Queueable-based deferred retry or quota increases.</description>
+    <label>Rate Limited (429)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

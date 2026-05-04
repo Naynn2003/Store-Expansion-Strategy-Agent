@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Market_Analysis__c</defaultLandingTab>
+    <description>Store Expansion Strategy Agent - manage market analysis, expansion sites, demographics, competitors, site scores and financial projections</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Store Expansion Agent</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Store_Expansion_Dashboard</tabs>
+    <tabs>Market_Analysis__c</tabs>
+    <tabs>Expansion_Site__c</tabs>
+    <tabs>Demographic_Data__c</tabs>
+    <tabs>Competitor_Store__c</tabs>
+    <tabs>Site_Score__c</tabs>
+    <tabs>Financial_Projection__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

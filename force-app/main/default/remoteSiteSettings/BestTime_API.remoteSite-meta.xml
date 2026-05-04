@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>BestTime.app API — venue busyness / foot traffic forecasts based on historical smartphone signals. Used to populate Foot_Traffic_Index__c on Expansion_Site__c.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://besttime.app</url>
+</RemoteSiteSetting>

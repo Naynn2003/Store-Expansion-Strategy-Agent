@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>World Bank Open Data API — free, no key required. Used to fetch India annual GDP growth rate (NY.GDP.MKTP.KD.ZG) for Growth_Rate__c on Market_Analysis__c records.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://api.worldbank.org</url>
+</RemoteSiteSetting>

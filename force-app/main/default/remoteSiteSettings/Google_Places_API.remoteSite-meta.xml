@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Google Places API (New) — Text Search, Place Details, and computeInsights endpoints for competitor geolocation, ratings, and city-level store counts.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://places.googleapis.com</url>
+</RemoteSiteSetting>
